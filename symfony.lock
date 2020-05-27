@@ -18,7 +18,7 @@
         "version": "1.6.4"
     },
     "doctrine/common": {
-        "version": "2.12.0"
+        "version": "2.13.0"
     },
     "doctrine/dbal": {
         "version": "2.10.2"
@@ -88,10 +88,10 @@
         "version": "3.2.1"
     },
     "laminas/laminas-zendframework-bridge": {
-        "version": "1.0.3"
+        "version": "1.0.4"
     },
     "monolog/monolog": {
-        "version": "2.0.2"
+        "version": "2.1.0"
     },
     "nikic/php-parser": {
         "version": "v4.4.0"
@@ -139,6 +139,18 @@
         },
         "files": [
             "config/packages/sensio_framework_extra.yaml"
+        ]
+    },
+    "symfony/apache-pack": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "71599f5b0fdeeeec0fb90e9b17c85e6f5e1350c1"
+        },
+        "files": [
+            "public/.htaccess"
         ]
     },
     "symfony/asset": {
@@ -256,7 +268,7 @@
         "version": "v5.0.8"
     },
     "symfony/http-client-contracts": {
-        "version": "v2.0.1"
+        "version": "v2.1.1"
     },
     "symfony/http-foundation": {
         "version": "v5.0.8"
@@ -504,6 +516,9 @@
     },
     "symfony/yaml": {
         "version": "v5.0.8"
+    },
+    "twbs/bootstrap": {
+        "version": "v4.5.0"
     },
     "twig/extra-bundle": {
         "version": "v3.0.3"
